@@ -1,0 +1,19 @@
+.trustbanner-section{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 0.85rem;
+    padding: 40px;
+}
+.trustbanner-section div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.trustbanner-section div h2{
+    font-size: 40px;
+    color: #45b54c;
+}
+.trustbanner-section div span{
+    line-height: 1.5;
+}

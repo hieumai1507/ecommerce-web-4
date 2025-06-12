@@ -1,0 +1,6 @@
+.hero-section{
+    display: flex;
+}
+.hero-section-bg{
+    background-color: #f7fafc;
+}

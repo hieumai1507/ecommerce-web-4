@@ -1,0 +1,29 @@
+.sidenav{
+    width: 17rem;
+    background-color: #fff;
+    border: 0.1px solid #ececec;
+}
+.sidenav-items{
+    margin:1rem 2rem;
+}
+.sidenav-items span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.sidenav .sidenav-items ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0rem 2rem 0rem;
+}
+.sidenav .sidenav-items ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    color: #949494;
+    cursor: pointer;
+    font-weight: 300;
+}
+.sidenav .sidenav-items ul li:hover{
+    color:  #45b44d;
+}

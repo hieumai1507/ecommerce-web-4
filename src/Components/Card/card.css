@@ -1,0 +1,27 @@
+.card{
+    border: 0.1px solid #ececec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s linear;
+}
+.card:hover{
+    box-shadow: #9d9d9d 0 2px 5px 1px;
+}
+.card img{
+    width: 150px;
+    margin: 10px;
+}
+.card h2{
+    font-size:14px;
+    color: #252525;
+    font-weight: 400;
+}
+.card-items{
+    margin: 10px;
+}
+.card-items span{
+    color: #45b54c;
+    font-size: 14px;
+    font-weight: 600;
+}

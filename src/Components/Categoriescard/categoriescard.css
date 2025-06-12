@@ -1,0 +1,13 @@
+.categories-card{
+    text-align: center;
+    padding: 20px;
+}
+.categories-card img{
+    width: 130px;
+}
+.categories-card h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #252525;
+    font-size: 18px;
+}

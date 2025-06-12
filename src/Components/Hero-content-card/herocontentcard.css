@@ -1,0 +1,26 @@
+.herocard-section {
+    display: flex;
+}
+.herocards-items{
+    border: 0.2px solid #ececec;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 143px;
+    padding: 10px;
+    height: 10rem;
+    transition: 0.3s;
+}
+.herocards-items:hover{
+    transform: scale(105%);
+    box-shadow: #c1c1c1 0 2px 8px;
+}
+.herocards-items img{
+    width: 130px
+}
+.herocards-items h3{
+    font-size: 14px ;
+    color: #252525;
+    font-weight: 400;
+}

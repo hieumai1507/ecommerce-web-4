@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header-bg{
+    display: flex;
+    background-color: #45b44d;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.header-logo,.header-logo img{
+    width: 18rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.header-searchbar input{
+    padding: 0.7rem;
+    border: none;
+    width: 25rem;
+    font-size: 1rem;
+}
+.header-links{
+    display: flex;
+    gap: 2rem;
+}
+.header-links a{
+    font-size: small;
+    color: #ececec;
+    text-decoration: none;
+}
