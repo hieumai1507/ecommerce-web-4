@@ -86,6 +86,7 @@ const Footer = () => {
             <div className='footer-3'>
                 <img src={paymentsLogo} alt="Payments" />
                 <span>© Copyright 2025 Pakistan Store clone- All Rights Reserved. | Proudly Designed By Agha Raza Haider.</span>
+                <span>FOLINAS LLC</span>
             </div>
         </div>
     )
